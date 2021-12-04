@@ -1,0 +1,59 @@
+API 문서 
+
+음식 레시피를 저장하는 서버 
+
+요청 주소 :  http://localhost:8080/blog/test
+
+요청 방식(요청메서드) 
+//GET/POST 
+POST 
+
+요청데이터 
+키 :  food , 값 :  "당신이 입력한 값"  --> food : "입력값(음식이름)"
+키 :  recipe , 값 : "당신이 입력한 값:  --> recipe : "입력값(음식만드는 방법)"
+
+
+요청 데이터의 Content-Type : x-www-form-urlenencoded 
+
+
+1. 응답 결과 방식 
+text/plain (평문) 
+
+2. 응답 결과 방식 
+text/html (html) 
+
+3. 응답 결과 방식 
+application/json
+
+4. 파일로 이동 
+
+
+
+ 
+
+
+
+성공시 응답 
+{"food" : "+food+", "recipe" : "+recipe+" }
+
+실패시 응답 
+{"error":"fail"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
