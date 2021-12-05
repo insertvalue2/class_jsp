@@ -1,0 +1,35 @@
+API 문서 
+
+음식 레시피를 저장하는 서버 
+
+요청주소 : http://localhost:8080/jspmodel1/teste3
+
+요청방식 : POST 
+
+
+요청 데이터 타입(Content-Type) : x-www.form-urlenencoded 
+
+
+요청 데이터 
+키 : food,         값(String)  :  "입력값(된장찌개, 김치째개)"
+키 : recipe,        값(String) :  "입력값"  
+
+
+응답결과 
+
+성공 : 
+1. text/plain (평문)
+2. text/html 
+3. application/json (food : 입력값, recipe: 입력값) 
+4. 다른파일로 이동처리 (sendRedirect) 
+
+실패: (json 형식이라고 가정) 
+application/json (food : 입력값, recipe: 입력값) 
+
+{error: fail} - boolean 
+{error: "fail"} - String
+{error: -1}  - int 
+
+
+
+

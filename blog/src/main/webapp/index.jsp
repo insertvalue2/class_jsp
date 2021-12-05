@@ -21,7 +21,7 @@
 	</form>
 	 -->
 	
-	<form action="test3" method="post">
+	<form action="test1" method="post">
 		<label for="fname">음식:</label>
 		<br> 
 		<input type="text"
