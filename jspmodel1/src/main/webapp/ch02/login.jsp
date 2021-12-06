@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<style type="text/css">
+<style>
 	
 </style>
 <script type="text/javascript">
@@ -14,6 +14,8 @@
 	$(document).ready(function() {
 		
 		$("h2").css("color", "red");
+		
+		
 	});
 </script>
 </head>
