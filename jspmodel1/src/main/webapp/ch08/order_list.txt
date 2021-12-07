@@ -3,12 +3,35 @@
 
 JSP 페이지 액션 태그 이해 하기 
 
+사용 모습 
+<jsp:forward page="uri" />
+
+
+1. forwardTag1.html 
+2. forwardTag1_1.jsp 
+3. forwardTag1_2.jsp
+
+: post 방식일때 한글 처리를 위한 처리 
+request.setCharacterEncoding("utf-8");
+
+
+: get 방식일때 한글 처리를 위한 처리
+파일 위치 : server.xml  
+<Connector connectionTimeout="20000" port="8080" protocol="HTTP/1.1" redirectPort="8443"
+URIEncoding="UTF-8"/>
+    
+
+
+
+  
+  
+    
+
 1. include 액션 태그 <jsp:include>
 : 다른 페이지의 실행 결과를 현재의 페이지에 포함 시킬때 사용 
  
 2. forward 액션 태그 <jsp:forward>
 : 페이지 사이의 제어를 이동 시킬 때 사용 
-
 
 3. userBean 액션 태그 <jsp:useBean>
 : 자바빈을 JSP  페이지에 사용할 때 사용 
@@ -19,3 +42,5 @@ JSP 페이지 액션 태그 이해 하기
 5. getProperty 액션 태그 <jsp:getProperty>
 : 프로퍼티의 값을 얻어낼 때 사용 
 
+	
+	
