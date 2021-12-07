@@ -8,7 +8,7 @@
 <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
-	<h2 class="abc">회원 가입</h2>
+	<h2 >회원 가입</h2>
 	<form action="join_proc.jsp" method="post">
 		<table width="500" border="1">
 			<tr height="50">

@@ -1,9 +1,24 @@
 
+JSP 페이지에 장착 되어 있는 내장(내부)객체에 대한 개념 
+
+
+
+request 객체의 범위, page scope 확인 
+해결방법 (세션, 쿠키) 
+
+
 1. login.jsp
 2. login_proc.jsp 
 3. login_forword.jsp 
 
 
+
+
+
+
+
+
+// 자바스크립트 설정 
 https://github.com/blasten/turn.js
 
 https://github.com/angelozerr/tern.java/releases/tag/tern.java-1.2.1

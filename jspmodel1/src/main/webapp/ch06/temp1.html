@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Insert title here</title>
+    <link rel="stylesheet" href="../css/mytube.css">
+    <style>
+        * {
+            margin: 0px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-areas:
+                'header header'
+                'aside main'
+                'footer footer';
+
+            justify-content: center;
+            align-items: center;
+        }
+
+        .header {
+            grid-area: header;
+            height: 200px;
+            width: 800px;
+            background-color: antiquewhite;
+        }
+
+        .aside {
+            grid-area: aside;
+            width: 200px;
+            background-color: aquamarine;
+        }
+
+        .main {
+            grid-area: main;
+
+        }
+
+        .footer {
+            grid-area: footer;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">header</div>
+        <div class="aside">aside</div>
+        <div class="main">main</div>
+        <div class="footer">footer</div>
+    </div>
+</body>
+
+</html>

@@ -10,19 +10,15 @@
 	
 </style>
 <script type="text/javascript">
-	
 	$(document).ready(function() {
-		
 		$("h2").css("color", "red");
-		
-		
 	});
 </script>
 </head>
 <body>
 	<section>
 		<h2>로그인 페이지</h2>
-		<form action="loginProc.jsp" method="post">
+		<form action="login_proc.jsp" method="post">
 			<table width="400" border="1">
 				<tr height="60">
 					<td align="center" width="150">아이디</td>
