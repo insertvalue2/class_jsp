@@ -1,4 +1,13 @@
 
+플러그인 설정 
+https://code-nen.tistory.com/8
+
+// css 
+How to add CSS autocomplete to eclipse
+
+https://stackoverflow.com/questions/7900575/how-to-add-css-autocomplete-to-eclipse
+
+
 학습목표 
 
 JSP 페이지 액션 태그 이해 하기 
